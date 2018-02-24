@@ -17,7 +17,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
-  let loveBeatles = "I love the Beatles!"
+  let loveBeatles = "I love the Beatles! \n"
   let loveBeatlesArr = []
 
   if (number === 7) {

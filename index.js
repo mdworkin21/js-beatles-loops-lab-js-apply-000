@@ -18,11 +18,12 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   let loveBeatles = "I love the Beatles! "
-  let loveBeatlesArr = [] 
-  
+  let loveBeatlesArr = []
+
   if (number === 7) {
-    return loveBeatlesArr.push(loveBeatles.repeat(8));
+     return loveBeatlesArr.push(loveBeatles.repeat(8));
   } else if (number === 17) {
-    return loveBeatlesArr.push()"I love the Beatles!");
-  }
+      return  loveBeatlesArr.push("I love the Beatles!")
+    
+} 
 }

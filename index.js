@@ -1,5 +1,5 @@
 function theBeatlesPlay(person, instruments) {
-  let whatTheyPlay = []
+  let whatTheyPlay = [];
 
   for (let i = 0; i < person.length; i++) {
     whatTheyPlay.push(`${person[i]} plays ${instruments[i]}`);
@@ -7,6 +7,12 @@ function theBeatlesPlay(person, instruments) {
   return whatTheyPlay;
 }
 
-function johnLennonFacts(arr) {
+function johnLennonFacts(facts) {
+  let arrOfFacts = [];
+  
+  for (let i = 0; i < facts.length; i++){
+    arrOfFacts.push(`facts[i]!!!`);
+    
+  } return arrOfFacts;
 
 }

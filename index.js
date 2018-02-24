@@ -22,9 +22,10 @@ function iLoveTheBeatles(number) {
 
   if (number === 7) {
     let eightTimes = loveBeatles.repeat(8)
-     loveBeatlesArr.push(eightTimes);
+    loveBeatlesArr.push(eightTimes);
   } else if (number === 17) {
-     loveBeatlesArr.push("I love the Beatles!")
+    loveBeatlesArr.push("I love the Beatles!")
 
-  } return loveBeatlesArr;
+  }
+  return loveBeatlesArr;
 }

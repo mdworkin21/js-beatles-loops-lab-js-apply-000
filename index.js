@@ -16,3 +16,11 @@ function johnLennonFacts(facts) {
   return arrOfFacts;
 }
 
+function iLoveTheBeatles(number){
+  let loveBeatles = "I love the Beatles!"
+  if (number === 7){
+    return  loveBeatles.repeat(8);
+  } else if (number === 17){
+    return loveBeatles;
+  }
+}

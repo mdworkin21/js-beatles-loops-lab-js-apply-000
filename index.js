@@ -12,8 +12,7 @@ function johnLennonFacts(facts) {
 
   for (let i = 0; i < facts.length; i++) {
     arrOfFacts.push(`${facts[i]}!!!`);
-
   }
   return arrOfFacts;
-
 }
+

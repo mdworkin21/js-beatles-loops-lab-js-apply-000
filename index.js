@@ -1,9 +1,12 @@
-function theBeatlesPlay(arr1, arr2) {
+function theBeatlesPlay(person, instruments) {
   let whatTheyPlay = []
-  let str = ''
 
-  for (let i = 0; i < arr1.length; i++) {
-    whatTheyPlay.push(`${arr1[i]} plays ${arr2[i]}`);
+  for (let i = 0; i < person.length; i++) {
+    whatTheyPlay.push(`${person[i]} plays ${instruments[i]}`);
   }
   return whatTheyPlay;
+}
+
+function johnLennonFacts(arr){
+  
 }

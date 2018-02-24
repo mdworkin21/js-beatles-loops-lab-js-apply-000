@@ -21,7 +21,8 @@ function iLoveTheBeatles(number) {
   let loveBeatlesArr = []
 
   if (number === 7) {
-    return loveBeatlesArr.push(loveBeatles.repeat(8));
+    let  = loveBeatles.repeat(8)
+    return loveBeatlesArr.push(eightTimes);
   } else if (number === 17) {
     return loveBeatlesArr.push("I love the Beatles!")
 
